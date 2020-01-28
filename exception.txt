@@ -1,0 +1,18 @@
+Quando falamos de exceçoes no java, a gente tem que compreender da seguinte forma:
+existem dois grupos de exceçoes:
+
+checked exceptions: (exceçoes chegadas) menos perigosas
+exception
+ioexcepetion
+sqlexception
+
+as exceçoes do tipos chegadas fazem com que o programa seja executado
+ate que a determinada exceloes seja tratada
+
+unchecked exceptions: (exceçoes não chegadas) mais perogosas
+runtimeexception
+nullpointerexception
+arrayoutofboundsexception
+
+as exceçoes do tipo não cehagadas so acontece durante a execução do programa e desta forma nao temos como saber,
+em grande parte dos casos, onde ela podera ocorrer
